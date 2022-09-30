@@ -33,7 +33,7 @@ public class TestDbServlet extends HttpServlet {
 				String user = "webstudent";
 				String pass = "webstudent";
 				
-				String jdbcUrl = "jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false&serverTimezone=GMT+3";
+				String jdbcUrl = "jdbc:mysql://localhost:3306/web_spring_mvc?useSSL=false";
 				String driver = "com.mysql.cj.jdbc.Driver";
 				
 				// get connection to database
