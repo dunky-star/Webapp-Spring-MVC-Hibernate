@@ -5,10 +5,12 @@ import org.hibernate.query.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.dunky.spring.mvc.entity.Customer;
 
+@Repository
 public class CustomerDAOImpl implements CustomerDAO {
 
 	// need to inject the session factory
