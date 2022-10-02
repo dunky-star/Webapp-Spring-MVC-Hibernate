@@ -36,8 +36,8 @@
         <property name="password" value="webstudent" /> 
 
         <!-- these are connection pool properties for C3P0 -->
-        <property name="minPoolSize" value="5" />
-        <property name="maxPoolSize" value="10" />
+        <property name="minPoolSize" value="3" />
+        <property name="maxPoolSize" value="5" />
         <property name="maxIdleTime" value="30000" />
 	</bean>  
 	
