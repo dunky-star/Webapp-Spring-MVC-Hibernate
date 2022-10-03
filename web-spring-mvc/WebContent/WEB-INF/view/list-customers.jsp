@@ -16,7 +16,7 @@
 <body>
 	<div id="wrapper">
 		<div id="header">
-			<h2>Customer Relationship Management App.</h2>
+			<h2>CRM App.</h2>
 		</div>
 	</div>
 	
